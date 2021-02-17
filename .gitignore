@@ -1,0 +1,50 @@
+﻿# Common IntelliJ Platform excludes
+
+# User specific
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/shelf/*
+**/.idea/dictionaries
+**/.idea/httpRequests/
+
+# Sensitive or high-churn files
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.xml
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+
+# Rider
+# Rider auto-generates .iml files, and contentModel.xml
+**/.idea/**/*.iml
+**/.idea/**/contentModel.xml
+**/.idea/**/modules.xml
+
+*.suo
+*.user
+.vs/
+[Bb]in/
+[Oo]bj/
+_UpgradeReport_Files/
+[Pp]ackages/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+/.idea/
+/.idea/.idea.ActionFlow.APIService/
+
+# Ignore only specific Rider files/directories
+# For syntax see: https://stackoverflow.com/a/14422549/12124
+/.idea/*
+!/.idea/.idea.*
+/.idea/.idea.*/*
+!/.idea/.idea.*/.idea
+/.idea/.idea.*/.idea/*
+!/.idea/.idea.*/.idea/runConfigurations
+.idea/.idea.ActionFlow.APIService/.idea/encodings.xml
+.idea/.idea.ActionFlow.APIService/.idea/indexLayout.xml
+.idea/.idea.ActionFlow.APIService/.idea/riderModule.iml
+.idea/.idea.ActionFlow.APIService/.idea/vcs.xml
+ActionFlow.APIService/appsettings.json
